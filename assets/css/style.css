@@ -1,0 +1,132 @@
+/* font-family: 'Exo', sans-serif;
+font-family: 'Special Elite', cursive; */
+/* body {
+    color: #000, #fff;
+} */
+/* body {
+    background: url(../img/bg.jpeg) center / cover no-repeat;
+} */
+* {
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4 {
+    font-family: 'Exo', sans-serif;
+}
+a {
+    font-family: 'Special Elite', cursive;
+}
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Special Elite', cursive; 
+    color: #333;
+}
+header {
+    background: url(../img/bg.jpeg) center / cover no-repeat;
+    height: 100vh;
+    z-index: 0;
+    position: relative;
+} 
+.header-img {
+    position: absolute;
+    width: 55%;
+    margin-top: 30vh;
+}
+
+/* section {
+    height: 80vh;
+} */
+#hello {
+    background: url(../img/beans_icon.png) center / cover no-repeat;
+    height: 75vh; 
+}
+#hello h2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 20vh;
+    padding-top: 50px;
+}
+#hello p {
+    font-family: 'Special Elite', cursive;
+    margin-left: 20vh;
+    line-height: 20px;
+    width: 50%;
+}
+/*Section parallax 1*/
+#fixed {
+    background: url(../img/bridge_1.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+/*Section menu*/
+#menu {
+    background: url(../img/cake_icon.png) left /70% no-repeat;
+    text-align: center;
+    height: 105vh;
+}
+.menu-h2 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding-top: 4vh;
+}
+.toast {
+    height: 7vh;
+}
+figcaption {
+    margin-top: 0
+}
+.toast__link {
+    text-decoration: none;
+    font-size: 0.7rem;
+}
+.toast__link:visited {
+    color: #000;
+}
+.toast__link:hover {
+    border-bottom: 1px solid #000;
+}
+.menu-h3 {
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+.menu__product {
+    display: block;
+    width: 30%;
+    border: 1px solid black;
+    margin: 2vh auto;
+    padding: 8px;
+}
+h4 {
+    padding: 0;
+    font-size: 0.8rem;
+    margin: 0 auto;
+}
+div>p {
+    padding: 0 auto;
+    font-size: 0.8rem;
+    margin: 0 auto;
+    font-family: 'Special Elite', cursive; 
+}
+/*Section parallax 2*/
+#fixed-2 {
+    background: url(../img/bridge_2.jpg) center / cover no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+}
+
+/*Section story*/
+#story {
+    width: 60%;
+    margin: 0 auto;
+}
